@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Mortgage Calculator", layout="centered")
+st.set_page_config(page_title="Shuvo's Mortgage Calculator", layout="centered")
 
 st.title("🏠 Mortgage Calculator")
 
