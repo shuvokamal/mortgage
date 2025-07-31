@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Shuvo's Mortgage Calculator", layout="centered")
 
-st.title("🏠 Mortgage Calculator")
+st.title("🏠 Shuvo's Mortgage Calculator")
 
 # Inputs
 home_price = st.number_input("Home Price ($)", min_value=1000.0, value=300000.0, step=1000.0, format="%.2f")
