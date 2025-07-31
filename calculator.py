@@ -29,3 +29,11 @@ if st.button("Calculate Monthly Payment"):
             payment = loan_amount * (monthly_rate * (1 + monthly_rate) ** months) / ((1 + monthly_rate) ** months - 1)
 
         st.success(f"Estimated Monthly Payment: **${payment:,.2f}**")
+
+# Footer
+st.markdown("---")
+st.markdown(
+    "📞 For mortgage consultancy, [contact me on Facebook](https://www.facebook.com/yourfacebookid)",
+    unsafe_allow_html=True
+)
+
